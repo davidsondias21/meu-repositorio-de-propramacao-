@@ -1,0 +1,4 @@
+A lógica de programação   significa apenas contextualizar a lógica na programação de computadores , buscando a melhor sequência de ações para solucionar um problema .
+
+por exemplo : para calcular uma soma de dois números : o computador precisa da entrada do primeiro número depois a entrada do segundo número para o computador realizar a soma .
+

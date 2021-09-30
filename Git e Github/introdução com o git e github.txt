@@ -1,0 +1,11 @@
+O git é um sistema de versionamento de código distribuído criado por Linus Torvalds. o git ajuda manter o software atualizado com a versão atual e pode ser compartilhado no github que é um repositório remoto onde qualquer desenvolvedor poder contribuir para o desenvolvimento 
+
+
+
+  # os benefícios com o git e github
+
+- controle de versão 
+- armazenamento em nuvem
+- trabalho em equipe
+- melhorar seu código 
+- reconhecimento
