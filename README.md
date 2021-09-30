@@ -1,4 +1,4 @@
-# meu-repositorio-de-propramacao
+# meu-repositorio-de-programação
 ## Aprendendo 💻
 - Projetos ágeis com SCRUM 
 - Lógica de Programação Essencial
