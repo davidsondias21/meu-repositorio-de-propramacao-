@@ -29,10 +29,10 @@ let shuffleOrder =() => {
 
 //acende a próxima cor 
 let lightColor = (element ,number) => {
-    number = number * 500;
+    number = number * 550;
     setTimeout (()=> {
        element.classList.add('selected');
-    },number - 250);
+    },number - 275);
 
     setTimeout( () => {
         element.classList.remove('selected');
@@ -51,6 +51,13 @@ let checkOrder = () => {
     }
     if(clickedOrder.length == order.length){
         alert(`Pontuação :${score}\n Você acertou! iniciando próximo nível!`);
+       
+        
+        if (score == 5){
+            alert('parabéns continue no jogo !');
+        } else if (score == 9 ){
+            alert("ótimo jogador vc tem uma boa memória ");
+        }
         nextLevel();
     }
 }
@@ -66,7 +73,7 @@ let click = (color) => {
 setTimeout(() => {
     createColorElement(color).classList.remove('selected');
     checkOrder();
-},250);
+},5);
 
 }
 
@@ -116,8 +123,7 @@ let gameOver = () => {
    
 
     alert(`bem vindo ao Gênesis ! iniciando o jogo!`);
-    score = 0;
-
+   
     nextLevel();
 
    }
